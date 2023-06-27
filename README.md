@@ -1,15 +1,15 @@
-### Hi there 👋
-
-[![MasterHead](https://onlineconvertfree.com/convert-format/gif-to-html/)]
+[![MasterHead](https://user-images.githubusercontent.com/111674258/249227209-50ca68f2-f309-41e9-bed4-e069fede5cf2.gif)]
 <h1 align="center">Hi 👋, I'm vimal</h1>
-<h3 align="center">A passionate full-stack developer from India</h3>
+<h3 align="center">A passionate full-stack developer </h3>
 <img align="right" alt="Coding" width="400" src="https://www.aalpha.net/wp-content/uploads/2020/12/full-stack-development.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=itsvimalm&label=Profile%20views&color=0e75b6&style=flat" alt="itsvimalm" /> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 💬 Ask me about **python,c,c++,MEARN**
-
+- 🔭 I’m currently working on **web app**
+- 💬 Ask me about **python**
+- 💬 Ask me about **c , java , c++**
+- 👨‍💻 All of my projects are available at **itsvimalm**
 - 📫 How to reach me **vimalmurugan314@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
