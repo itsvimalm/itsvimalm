@@ -1,4 +1,4 @@
-[![MasterHead](https://user-images.githubusercontent.com/111674258/249227209-50ca68f2-f309-41e9-bed4-e069fede5cf2.gif)]
+![MasterHead](https://user-images.githubusercontent.com/111674258/249227209-50ca68f2-f309-41e9-bed4-e069fede5cf2.gif)
 <h1 align="center">Hi 👋, I'm vimal</h1>
 <h3 align="center">A passionate full-stack developer </h3>
 <img align="right" alt="Coding" width="400" src="https://www.aalpha.net/wp-content/uploads/2020/12/full-stack-development.gif">
