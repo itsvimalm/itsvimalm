@@ -77,7 +77,7 @@
 
 #### 🎨 **Dynamic Contributions Heatmap**
 <p align="center">
-  <img src="https://raw.githubusercontent.com/itsvimalm/github-profile-3d-contrib/main/profile-season-animated.svg" alt="3D Contributions Heatmap">
+  <img src="./assets/3d-contrib.svg" alt="3D Contributions Heatmap">
 </p>
 
 ---
