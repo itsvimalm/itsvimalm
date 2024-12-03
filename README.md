@@ -75,9 +75,11 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=itsvimalm&theme=radical" alt="Streak Widget">
 </p>
 
-#### 🎨 **Dynamic Contributions Heatmap**
+#### 🌌 **3D Contributions Skyline**
 <p align="center">
-  <img src="./assets/3d-contrib.svg" alt="3D Contributions Heatmap">
+  <a href="https://skyline.github.com/itsvimalm">
+    <img src="./assets/github-skyline.svg" alt="GitHub Skyline" width="600">
+  </a>
 </p>
 
 ---
