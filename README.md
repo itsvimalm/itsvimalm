@@ -1,128 +1,108 @@
-<h1 align="center">Hi 👋, I'm Vimal</h1>
-<h3 align="center">🚀 A Passionate IoT & Robotics Developer from India 🌍</h3>
+<h1 align="center">
+  Hi 👋, I'm <span style="color: #36BCF7;">Vimal</span>  
+</h1>
+<h3 align="center">🚀 IoT Innovator | Robotics Enthusiast | Tech Educator 🌟</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=36BCF7&lines=IoT+Innovator;Robotics+Enthusiast;Open+Source+Contributor;Tech+Educator+and+Mentor;Problem+Solver" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2000&color=36BCF7&center=true&width=500&lines=Welcome+to+my+GitHub!;IoT+%2B+Robotics+%3D+Innovation!;Open+Source+Lover;Exploring+Edge+Computing+%26+AI!;Let%27s+Collaborate+on+Cool+Projects!" alt="Typing Animation">
 </p>
 
 ---
 
-### 🌟 About Me
-- 🔭 Currently working on **AI-powered Security Cam**  
-- 🌱 Learning **ROS2, Edge AI, and Matter Protocol**  
-- 💬 Ask me about **IoT, Robotics, AI, Arduino, and ESP32**  
-- 📝 Check out my blog on [Medium](https://medium.com/@vimalmurugan314)  
-- ⚡ Fun fact: **I can build a robot faster than I can cook a meal!**
-
----
-
-### 🛠️ Skills and Tools
-
-#### **💻 Programming Languages**
-<p>
-  <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++" width="40"/> 
-  <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="40"/>
-  <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" width="40"/>
-  <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C" width="40"/>
-</p>
-
-#### **🌐 Web Technologies**
-<p>
-  <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5" width="40"/> 
-  <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" width="40"/> 
-  <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" width="40"/> 
-</p>
-
-#### **🤖 Robotics & IoT**
-<p>
-  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" width="40"/> 
-  <img src="https://img.icons8.com/color/48/000000/raspberry-pi.png" alt="Raspberry Pi" width="40"/> 
-  <img src="https://img.icons8.com/nolan/64/iot.png" alt="IoT" width="40"/>
-</p>
-
-#### **🛠 Software and Tools**
-<p>
-  <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="40"/> 
-  <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="40"/> 
-  <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VS Code" width="40"/>
-</p>
-
----
-
-### 📈 Stats and Achievements
+### 🌟 **About Me**
+- 🔭 **Building**: AI-powered Smart Security Cam  
+- 🌱 **Exploring**: **Matter Protocol, ROS2, and Edge AI**  
+- 💬 **Ask Me About**: IoT, Robotics, Arduino, and ESP32  
+- 🌟 Fun Fact: **My robots are faster than my internet!**  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itsvimalm&show_icons=true&theme=react" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsvimalm&theme=react" alt="GitHub Streak" />
+  <img src="https://github.com/itsvimalm/itsvimalm/blob/main/assets/robot.gif" alt="Robot GIF" width="300">
+</p>
+
+---
+
+### 🛠️ **Skills & Tools**
+#### **💻 Languages**
+![C++](https://img.shields.io/badge/C++-blue?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-gold?style=for-the-badge&logo=javascript&logoColor=white)
+![C](https://img.shields.io/badge/C-grey?style=for-the-badge&logo=c&logoColor=white)
+
+#### **🤖 IoT & Robotics**
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![IoT](https://img.shields.io/badge/IoT-Powered-green?style=for-the-badge)
+
+#### **🌐 Web Development**
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-purple?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+---
+
+### 📊 **GitHub Stats**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=itsvimalm&show_icons=true&theme=radical" alt="GitHub Stats" width="400"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsvimalm&theme=radical" alt="GitHub Streak Stats" width="400"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itsvimalm&theme=react-dark" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itsvimalm&theme=react-dark&hide_border=true&area=true" alt="Activity Graph">
 </p>
 
 ---
 
-### 🧩 Cool Interactive Badges  
+### 🎮 **Fun Projects**
+- 🌟 **Night Patrolling Robot**  
+   - 🚔 **Features**: AI noise detection, real-time video surveillance  
+   - 🛠️ Powered by Raspberry Pi & Arduino  
+   - 📡 Remote Controlled  
+- 💡 **Smart Home Automation**  
+   - 🔗 Voice-Controlled with Alexa and Google Assistant  
+   - 🌐 Internet-enabled appliance monitoring via ESP32  
+
+---
+
+### 🎉 **Interactive Widgets**
+
+#### 🕹 **My Coding Habits**
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20With-Arduino-blue?style=for-the-badge" alt="Arduino Badge"/>
-  <img src="https://img.shields.io/badge/Framework-Matter-orange?style=for-the-badge" alt="Matter Badge"/>
-  <img src="https://img.shields.io/badge/IoT-Pioneer-green?style=for-the-badge" alt="IoT Pioneer Badge"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itsvimalm&theme=radical" alt="Profile Summary">
+</p>
+
+#### 📈 **Current Streak**
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=itsvimalm&theme=radical" alt="Streak Widget">
+</p>
+
+#### 🎨 **Dynamic Contributions Heatmap**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/itsvimalm/github-profile-3d-contrib/main/profile-season-animated.svg" alt="3D Contributions Heatmap">
 </p>
 
 ---
 
-### 🏆 Certifications
-- 🔹 Certified IoT Developer  
-- 🔹 Arduino Robotics Specialist  
-- 🔹 AI and Edge Computing Masterclass Graduate  
-
----
-
-### 📖 My Latest Blog Posts  
-- 🌟 [Understanding Matter Protocol in IoT](https://medium.com/@vimalmurugan314)  
-- 🚀 [Top 5 Robotics Projects for Beginners](https://medium.com/@vimalmurugan314)  
-- 🔬 [IoT in Agriculture: Transforming the Field](https://medium.com/@vimalmurugan314)  
-
----
-
-### 🎮 Fun Projects  
-#### **1️⃣ Night Patrolling Robot**  
-- 🚔 Equipped with sensors for real-time surveillance.  
-- 📡 Controlled remotely via Raspberry Pi.  
-
-#### **2️⃣ Smart Home Automation**  
-- 💡 Voice-enabled home control with ESP32.  
-- 📱 App-controlled lighting and appliance system.  
-
----
-
-### 🌐 Connect with Me
+### 🌐 **Connect with Me**
 <p align="center">
   <a href="https://linkedin.com/in/vimal-m-dev" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn" width="40"/>
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge">
   </a>
   <a href="https://github.com/itsvimalm" target="_blank">
-    <img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub" width="40"/>
+    <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
   </a>
   <a href="mailto:vimal@dctro.in">
-    <img src="https://img.icons8.com/fluency/48/000000/mail.png" alt="Email" width="40"/>
+    <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge">
   </a>
 </p>
 
 ---
 
-### 🔥 Fun Section  
-#### **GitHub Profile View Counter**  
+### 🎭 **Fun Section**
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=itsvimalm&label=Profile%20Views&color=brightgreen&style=flat-square" alt="Profile Views"/>
+  <img src="https://readme-jokes.vercel.app/api" alt="Dynamic Joke Card">
 </p>
 
-#### **Dynamic Programming Joke**  
+#### 📜 **Quote of the Day**
 <p align="center">
-  <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote of the Day">
 </p>
-
----
-
-### 📜 Quote of the Day  
-> "Stay hungry, stay foolish – Steve Jobs"  
