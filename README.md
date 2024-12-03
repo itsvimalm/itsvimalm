@@ -75,17 +75,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=itsvimalm&theme=radical" alt="Streak Widget">
 </p>
 
-### 🚀 **Explore My GitHub Universe**
-<p align="center">
-  <img src="./assets/star-field.gif" alt="Star Field Animation" width="600">
-</p>
 
----
-
-### 📊 **My GitHub Stats**
-<p align="center">
-  <img src="./assets/github-stats.png" alt="GitHub Stats" width="600">
-</p>
 
 ---
 
