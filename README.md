@@ -77,7 +77,7 @@
 
 #### 🌌 **3D Contributions Skyline**
 <p align="center">
-  <a href="https://skyline.github.com/itsvimalm">
+  <a href="https://skyline.github.com/">
     <img src="./assets/github-skyline.svg" alt="GitHub Skyline" width="600">
   </a>
 </p>
