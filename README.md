@@ -4,7 +4,7 @@
 <h3 align="center">💻 .NET Developer | IoT Innovator 🚀</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2000&color=512BD4&center=true&width=500&lines=Building+Fintech+Solutions;Mastering+.NET+Fullstack;C%23+%2C+ADO.NET+%26+SQL+Expert;IoT+%2B+Robotics+Enthusiast" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2000&color=512BD4&center=true&width=500&lines=Building+Fintech+Solutions;Learning+.NET+Fullstack;C%23+%2C+ADO.NET+%26+SQL;IoT+%2B+Robotics+Enthusiast" alt="Typing Animation">
 </p>
 
 ---
