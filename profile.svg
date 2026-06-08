@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 2200" width="900">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=DM+Mono:wght@400;500&amp;display=swap');
+    .display { font-family: "Bebas Neue", "Arial Black", sans-serif; }
+    .mono { font-family: "DM Mono", "Courier New", monospace; }
+    .sans { font-family: "DM Sans", system-ui, sans-serif; }
+    
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+    @keyframes scroll { from{transform:translateX(0)} to{transform:translateX(-1680px)} }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+    
+    .blink { animation: blink 1.8s ease-in-out infinite; }
+    .marquee { animation: scroll 22s linear infinite; }
+    .fade1 { animation: fadeUp .7s .1s ease both; }
+    .fade2 { animation: fadeUp .7s .25s ease both; }
+    .fade3 { animation: fadeUp .7s .4s ease both; }
+    .fade4 { animation: fadeUp .7s .55s ease both; }
+    .fade5 { animation: fadeUp .7s .7s ease both; }
+    
+    .hover-cell { transition: fill .2s; }
+    .hover-cell:hover { fill: #EDEAE0; }
+  </style>
+  
+  <!-- Grid pattern -->
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(13,13,13,0.06)" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<!-- BG -->
+<rect width="900" height="2200" fill="#F5F2EB"/>
+<rect width="900" height="2200" fill="url(#grid)"/>
+
+<!-- ═══════════════════ TOPBAR ═══════════════════ -->
+<rect x="0" y="0" width="900" height="56" fill="#F5F2EB"/>
+<line x1="0" y1="56" x2="900" y2="56" stroke="#0D0D0D" stroke-width="1"/>
+<!-- Logo -->
+<text x="32" y="36" class="display" font-size="22" letter-spacing="3" fill="#0D0D0D">VM</text>
+<!-- Nav links -->
+<text x="400" y="34" class="mono" font-size="10" letter-spacing="2.5" fill="rgba(13,13,13,0.38)">ABOUT</text>
+<text x="470" y="34" class="mono" font-size="10" letter-spacing="2.5" fill="rgba(13,13,13,0.38)">STACK</text>
+<text x="535" y="34" class="mono" font-size="10" letter-spacing="2.5" fill="rgba(13,13,13,0.38)">WORK</text>
+<text x="598" y="34" class="mono" font-size="10" letter-spacing="2.5" fill="rgba(13,13,13,0.38)">CONTACT</text>
+<!-- Available badge -->
+<rect x="718" y="16" width="150" height="26" fill="#C8F03C" rx="0" stroke="#0D0D0D" stroke-width="1"/>
+<circle cx="734" cy="29" r="3.5" fill="#0D0D0D" class="blink"/>
+<text x="744" y="34" class="mono" font-size="9.5" letter-spacing="1.5" fill="#0D0D0D">OPEN TO WORK</text>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<g class="fade1">
+<!-- Eyebrow -->
+<line x1="32" y1="86" x2="64" y2="86" stroke="rgba(13,13,13,0.38)" stroke-width="1"/>
+<text x="74" y="90" class="mono" font-size="9.5" letter-spacing="3" fill="rgba(13,13,13,0.38)">FULL STACK .NET · IOT · ROBOTICS ENGINEER</text>
+
+<!-- Name -->
+<line x1="0" y1="100" x2="900" y2="100" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="28" y="218" class="display" font-size="148" letter-spacing="-3" fill="#0D0D0D">VIMAL</text>
+
+<text x="28" y="330" class="display" font-size="148" letter-spacing="-3" fill="#FF4D2E">M.</text>
+
+<!-- Tagline right -->
+<text x="820" y="140" class="mono" font-size="10.5" letter-spacing="1.5" fill="rgba(13,13,13,0.38)" text-anchor="end">ASP.NET CORE</text>
+<text x="820" y="158" class="mono" font-size="10.5" letter-spacing="1.5" fill="rgba(13,13,13,0.38)" text-anchor="end">C# · ESP32</text>
+<text x="820" y="176" class="mono" font-size="10.5" letter-spacing="1.5" fill="rgba(13,13,13,0.38)" text-anchor="end">SMART HOME</text>
+<text x="820" y="194" class="mono" font-size="10.5" letter-spacing="1.5" fill="rgba(13,13,13,0.38)" text-anchor="end">ROBOTICS</text>
+
+<!-- Bio row -->
+<line x1="0" y1="346" x2="900" y2="346" stroke="#0D0D0D" stroke-width="1"/>
+<text x="32" y="376" class="sans" font-size="12.5" fill="rgba(13,13,13,0.65)">I build <tspan font-weight="600" fill="#0D0D0D">resilient financial systems</tspan> and <tspan font-weight="600" fill="#0D0D0D">intelligent hardware</tspan> — two worlds</text>
+<text x="32" y="396" class="sans" font-size="12.5" fill="rgba(13,13,13,0.65)">most engineers never bridge. From <tspan font-weight="600" fill="#0D0D0D">FinTech APIs</tspan> processing real money to</text>
+<text x="32" y="416" class="sans" font-size="12.5" fill="rgba(13,13,13,0.65)"><tspan font-weight="600" fill="#0D0D0D">ESP32 firmware</tspan> controlling physical environments — I ship solutions</text>
+<text x="32" y="436" class="sans" font-size="12.5" fill="rgba(13,13,13,0.65)">that live both in the cloud and on the chip.</text>
+
+<!-- Vertical rule -->
+<line x1="500" y1="346" x2="500" y2="470" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+
+<!-- Location -->
+<text x="524" y="376" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">LOCATION</text>
+<text x="524" y="408" class="display" font-size="32" letter-spacing="1" fill="#0D0D0D">CHENNAI</text>
+<text x="524" y="428" class="mono" font-size="9.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">Tamil Nadu, India · IST UTC+5:30</text>
+<text x="524" y="452" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">DOMAINS</text>
+<text x="524" y="468" class="display" font-size="18" letter-spacing="0" fill="#0D0D0D">FinTech · IoT · Robotics · Cloud</text>
+
+<line x1="0" y1="472" x2="900" y2="472" stroke="#0D0D0D" stroke-width="1"/>
+</g>
+
+<!-- ═══════════════════ MARQUEE BAND ═══════════════════ -->
+<rect x="0" y="472" width="900" height="44" fill="#0D0D0D"/>
+<clipPath id="marqclip"><rect x="0" y="472" width="900" height="44"/></clipPath>
+<g clip-path="url(#marqclip)">
+  <g class="marquee">
+    <text x="0" y="500" class="display" font-size="15" letter-spacing="3" fill="#F5F2EB">  ASP.NET CORE  <tspan fill="#C8F03C">✦</tspan>  ESP32 FIRMWARE  <tspan fill="#C8F03C">✦</tspan>  MATTER PROTOCOL  <tspan fill="#C8F03C">✦</tspan>  AZURE IOT HUB  <tspan fill="#C8F03C">✦</tspan>  CLEAN ARCHITECTURE  <tspan fill="#C8F03C">✦</tspan>  ROBOTICS  <tspan fill="#C8F03C">✦</tspan>  SMART HOME  <tspan fill="#C8F03C">✦</tspan>  MICROSERVICES  <tspan fill="#C8F03C">✦</tspan>  STEM EDUCATOR  <tspan fill="#C8F03C">✦</tspan>  ASP.NET CORE  <tspan fill="#C8F03C">✦</tspan>  ESP32 FIRMWARE  <tspan fill="#C8F03C">✦</tspan>  MATTER PROTOCOL  <tspan fill="#C8F03C">✦</tspan></text>
+  </g>
+</g>
+
+<!-- ═══════════════════ SECTION 01 — AT A GLANCE ═══════════════════ -->
+<g class="fade2">
+<line x1="0" y1="516" x2="900" y2="516" stroke="rgba(13,13,13,0.08)" stroke-width="1"/>
+<!-- Section header -->
+<text x="32" y="540" class="mono" font-size="9.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">01</text>
+<line x1="64" y1="516" x2="64" y2="558" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="82" y="540" class="display" font-size="12" letter-spacing="4" fill="rgba(13,13,13,0.38)">AT A GLANCE</text>
+<line x1="0" y1="558" x2="900" y2="558" stroke="rgba(13,13,13,0.08)" stroke-width="1"/>
+
+<!-- Left: About -->
+<text x="32" y="610" class="display" font-size="46" letter-spacing="-0.5" fill="#0D0D0D">WHERE</text>
+<text x="32" y="655" class="display" font-size="46" letter-spacing="-0.5" fill="#0D0D0D">CODE</text>
+<text x="32" y="700" class="display" font-size="46" letter-spacing="-0.5" fill="#0D0D0D">MEETS</text>
+<text x="32" y="745" class="display" font-size="46" letter-spacing="-0.5" fill="#0D0D0D">CURRENT.</text>
+
+<text x="32" y="775" class="sans" font-size="12" fill="rgba(13,13,13,0.62)" xml:space="preserve">Most developers pick a lane — web or hardware. I never did.</text>
+<text x="32" y="795" class="sans" font-size="12" fill="rgba(13,13,13,0.62)">C# moves money. C++ moves motors. The intersection is</text>
+<text x="32" y="815" class="sans" font-size="12" fill="rgba(13,13,13,0.62)">where the most interesting problems live.</text>
+
+<!-- Vert divider -->
+<line x1="450" y1="558" x2="450" y2="860" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+
+<!-- Stats right -->
+<text x="480" y="615" class="display" font-size="56" letter-spacing="-2" fill="#0D0D0D">2+</text>
+<text x="480" y="634" class="mono" font-size="8.5" letter-spacing="2.5" fill="rgba(13,13,13,0.38)">YEARS SHIPPING .NET SYSTEMS</text>
+
+<text x="480" y="695" class="display" font-size="56" letter-spacing="-2" fill="#0D0D0D">10+</text>
+<text x="480" y="714" class="mono" font-size="8.5" letter-spacing="2.5" fill="rgba(13,13,13,0.38)">IOT &amp; ROBOTICS BUILDS</text>
+
+<text x="480" y="775" class="display" font-size="56" letter-spacing="-2" fill="#0D0D0D">∞</text>
+<text x="480" y="794" class="mono" font-size="8.5" letter-spacing="2.5" fill="rgba(13,13,13,0.38)">COFFEE-TO-COMMIT RATIO</text>
+
+<!-- Currently working with tags -->
+<text x="480" y="834" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">CURRENTLY WORKING WITH</text>
+<!-- Tags -->
+<rect x="480" y="843" width="88" height="20" fill="none" stroke="#0D0D0D" stroke-width="1"/>
+<text x="489" y="857" class="mono" font-size="8.5" letter-spacing="0.5" fill="#0D0D0D">.NET MVC CORE</text>
+<rect x="574" y="843" width="50" height="20" fill="none" stroke="#0D0D0D" stroke-width="1"/>
+<text x="582" y="857" class="mono" font-size="8.5" letter-spacing="0.5" fill="#0D0D0D">ESP32</text>
+<rect x="630" y="843" width="70" height="20" fill="none" stroke="#0D0D0D" stroke-width="1"/>
+<text x="638" y="857" class="mono" font-size="8.5" letter-spacing="0.5" fill="#0D0D0D">AZURE IOT</text>
+<rect x="706" y="843" width="50" height="20" fill="none" stroke="#0D0D0D" stroke-width="1"/>
+<text x="714" y="857" class="mono" font-size="8.5" letter-spacing="0.5" fill="#0D0D0D">REACT</text>
+
+<line x1="0" y1="860" x2="900" y2="860" stroke="#0D0D0D" stroke-width="1"/>
+</g>
+
+<!-- ═══════════════════ SECTION 02 — TECH STACK ═══════════════════ -->
+<g class="fade3">
+<text x="32" y="884" class="mono" font-size="9.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">02</text>
+<line x1="64" y1="860" x2="64" y2="902" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="82" y="884" class="display" font-size="12" letter-spacing="4" fill="rgba(13,13,13,0.38)">TECHNOLOGY STACK</text>
+<line x1="0" y1="902" x2="900" y2="902" stroke="rgba(13,13,13,0.08)" stroke-width="1"/>
+
+<!-- 4x2 grid of stack cells -->
+<!-- Row 1 -->
+<rect x="0" y="902" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<line x1="225" y1="902" x2="225" y2="1012" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="22" y="932" font-size="20" fill="#0D0D0D">⬡</text>
+<text x="22" y="958" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">ASP.NET CORE</text>
+<text x="22" y="974" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">MVC · RAZOR · REST APIs</text>
+<text x="22" y="988" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">CLEAN ARCHITECTURE</text>
+
+<rect x="225" y="902" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<line x1="450" y1="902" x2="450" y2="1012" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="247" y="932" font-size="20" fill="#0D0D0D">◈</text>
+<text x="247" y="958" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">C# / ADO.NET</text>
+<text x="247" y="974" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">ENTITY FRAMEWORK · LINQ</text>
+<text x="247" y="988" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">STORED PROCEDURES</text>
+
+<rect x="450" y="902" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<line x1="675" y1="902" x2="675" y2="1012" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="472" y="932" font-size="20" fill="#0D0D0D">▲</text>
+<text x="472" y="958" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">SQL SERVER</text>
+<text x="472" y="974" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">QUERY OPTIMIZATION</text>
+<text x="472" y="988" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">SCHEMA DESIGN · T-SQL</text>
+
+<rect x="675" y="902" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<text x="697" y="932" font-size="20" fill="#0D0D0D">⊕</text>
+<text x="697" y="958" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">REACT</text>
+<text x="697" y="974" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">COMPONENT ARCH · HOOKS</text>
+<text x="697" y="988" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">SPA · REAL-TIME UI</text>
+
+<!-- Row 2 -->
+<line x1="0" y1="1012" x2="900" y2="1012" stroke="rgba(13,13,13,0.08)" stroke-width="1"/>
+<rect x="0" y="1012" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<line x1="225" y1="1012" x2="225" y2="1122" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="22" y="1042" font-size="20" fill="#FF4D2E">◉</text>
+<text x="22" y="1068" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">ESP32 / ARDUINO</text>
+<text x="22" y="1084" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">EMBEDDED C · MQTT</text>
+<text x="22" y="1098" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">WIFI · BLUETOOTH</text>
+
+<rect x="225" y="1012" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<line x1="450" y1="1012" x2="450" y2="1122" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="247" y="1042" font-size="20" fill="#FF4D2E">⌬</text>
+<text x="247" y="1068" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">RASPBERRY PI</text>
+<text x="247" y="1084" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">LINUX · GPIO · PYTHON</text>
+<text x="247" y="1098" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">HOME AUTOMATION</text>
+
+<rect x="450" y="1012" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<line x1="675" y1="1012" x2="675" y2="1122" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="472" y="1042" font-size="20" fill="#C8F03C">⊞</text>
+<text x="472" y="1068" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">AZURE IOT HUB</text>
+<text x="472" y="1084" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">DEVICE TWINS · STREAMS</text>
+<text x="472" y="1098" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">CLOUD-TO-DEVICE</text>
+
+<rect x="675" y="1012" width="225" height="110" fill="#F5F2EB" class="hover-cell"/>
+<text x="697" y="1042" font-size="20" fill="#C8F03C">◑</text>
+<text x="697" y="1068" class="display" font-size="17" letter-spacing="0.5" fill="#0D0D0D">MATTER PROTOCOL</text>
+<text x="697" y="1084" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">SMART HOME STANDARD</text>
+<text x="697" y="1098" class="mono" font-size="8.5" letter-spacing="1" fill="rgba(13,13,13,0.38)">THREAD · BLE PROVISION</text>
+
+<line x1="0" y1="1122" x2="900" y2="1122" stroke="#0D0D0D" stroke-width="1"/>
+</g>
+
+<!-- ═══════════════════ SECTION 04 — PROJECTS ═══════════════════ -->
+<g class="fade4">
+<text x="32" y="1146" class="mono" font-size="9.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">03</text>
+<line x1="64" y1="1122" x2="64" y2="1164" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="82" y="1146" class="display" font-size="12" letter-spacing="4" fill="rgba(13,13,13,0.38)">SELECTED WORK</text>
+<line x1="0" y1="1164" x2="900" y2="1164" stroke="rgba(13,13,13,0.08)" stroke-width="1"/>
+
+<!-- Project 1 -->
+<rect x="0" y="1164" width="450" height="220" fill="#F5F2EB" class="hover-cell"/>
+<line x1="450" y1="1164" x2="450" y2="1384" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<line x1="0" y1="1384" x2="900" y2="1384" stroke="rgba(13,13,13,0.08)" stroke-width="1"/>
+
+<text x="32" y="1192" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">PROJECT 001</text>
+<rect x="32" y="1200" width="56" height="18" fill="#0D0D0D"/>
+<text x="39" y="1213" class="mono" font-size="8" letter-spacing="1" fill="#F5F2EB">FINTECH</text>
+<text x="32" y="1250" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">FINTECH CORE</text>
+<text x="32" y="1278" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">PLATFORM</text>
+<text x="32" y="1308" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)" xml:space="preserve">Production-grade financial management</text>
+<text x="32" y="1325" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)">platform · Clean Architecture · REST API</text>
+<text x="32" y="1354" class="mono" font-size="8.5" fill="rgba(13,13,13,0.35)">ASP.NET MVC CORE · C# · ADO.NET · SQL SERVER</text>
+<text x="418" y="1376" font-size="18" fill="#0D0D0D">↗</text>
+
+<!-- Project 2 -->
+<rect x="450" y="1164" width="450" height="220" fill="#F5F2EB" class="hover-cell"/>
+<text x="482" y="1192" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">PROJECT 002</text>
+<rect x="482" y="1200" width="36" height="18" fill="#FF4D2E"/>
+<text x="489" y="1213" class="mono" font-size="8" letter-spacing="1" fill="#ffffff">IOT</text>
+<text x="482" y="1250" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">SMART HOME</text>
+<text x="482" y="1278" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">OS</text>
+<text x="482" y="1308" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)">Matter Protocol-compliant hub · ESP32</text>
+<text x="482" y="1325" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)">nodes · Thread · BLE provisioning</text>
+<text x="482" y="1354" class="mono" font-size="8.5" fill="rgba(13,13,13,0.35)">ESP32 · MATTER · RASPBERRY PI · AZURE IOT</text>
+<text x="868" y="1376" font-size="18" fill="#0D0D0D">↗</text>
+
+<!-- Project 3 -->
+<rect x="0" y="1384" width="450" height="220" fill="#F5F2EB" class="hover-cell"/>
+<line x1="450" y1="1384" x2="450" y2="1604" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="32" y="1412" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">PROJECT 003</text>
+<rect x="32" y="1420" width="68" height="18" fill="#C8F03C" stroke="#0D0D0D" stroke-width="1"/>
+<text x="39" y="1433" class="mono" font-size="8" letter-spacing="1" fill="#0D0D0D">ROBOTICS</text>
+<text x="32" y="1470" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">AUTONOMOUS</text>
+<text x="32" y="1498" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">ROBOT PLATFORM</text>
+<text x="32" y="1528" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)">Self-navigating robot · sensor fusion</text>
+<text x="32" y="1545" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)">.NET telemetry · STEM demo for 200+ students</text>
+<text x="32" y="1574" class="mono" font-size="8.5" fill="rgba(13,13,13,0.35)">ARDUINO · C++ · RASPBERRY PI · PYTHON</text>
+<text x="418" y="1596" font-size="18" fill="#0D0D0D">↗</text>
+
+<!-- Project 4 -->
+<rect x="450" y="1384" width="450" height="220" fill="#F5F2EB" class="hover-cell"/>
+<text x="482" y="1412" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">PROJECT 004</text>
+<rect x="482" y="1420" width="52" height="18" fill="#FF4D2E"/>
+<text x="489" y="1433" class="mono" font-size="8" letter-spacing="1" fill="#ffffff">CLOUD</text>
+<text x="482" y="1470" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">IOT ANALYTICS</text>
+<text x="482" y="1498" class="display" font-size="30" letter-spacing="0" fill="#0D0D0D">DASHBOARD</text>
+<text x="482" y="1528" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)">Real-time sensor pipeline · Azure IoT</text>
+<text x="482" y="1545" class="sans" font-size="11.5" fill="rgba(13,13,13,0.58)">React dashboard · SignalR push · alerts</text>
+<text x="482" y="1574" class="mono" font-size="8.5" fill="rgba(13,13,13,0.35)">AZURE IOT HUB · REACT · SIGNALR · ESP32</text>
+<text x="868" y="1596" font-size="18" fill="#0D0D0D">↗</text>
+
+<line x1="0" y1="1604" x2="900" y2="1604" stroke="#0D0D0D" stroke-width="1"/>
+</g>
+
+<!-- ═══════════════════ CONTACT ═══════════════════ -->
+<g class="fade5">
+<text x="32" y="1628" class="mono" font-size="9.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">04</text>
+<line x1="64" y1="1604" x2="64" y2="1646" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+<text x="82" y="1628" class="display" font-size="12" letter-spacing="4" fill="rgba(13,13,13,0.38)">LET'S CONNECT</text>
+<line x1="0" y1="1646" x2="900" y2="1646" stroke="rgba(13,13,13,0.08)" stroke-width="1"/>
+
+<!-- Left black panel -->
+<rect x="0" y="1646" width="450" height="340" fill="#0D0D0D"/>
+
+<text x="32" y="1716" class="display" font-size="60" letter-spacing="-1" fill="#F5F2EB">LET'S</text>
+<text x="32" y="1776" class="display" font-size="60" letter-spacing="-1" fill="#F5F2EB">BUILD</text>
+<text x="32" y="1836" class="display" font-size="60" letter-spacing="-1" fill="#F5F2EB">SOME-</text>
+<text x="32" y="1896" class="display" font-size="60" letter-spacing="-1" fill="#F5F2EB">THING.</text>
+
+<line x1="32" y1="1912" x2="418" y2="1912" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+<text x="32" y="1934" class="mono" font-size="10.5" letter-spacing="1.5" fill="rgba(245,242,235,0.45)">LINKEDIN</text>
+<text x="414" y="1934" font-size="14" fill="#C8F03C" text-anchor="end">↗</text>
+
+<line x1="32" y1="1946" x2="418" y2="1946" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+<text x="32" y="1968" class="mono" font-size="10.5" letter-spacing="1.5" fill="rgba(245,242,235,0.45)">GITHUB</text>
+<text x="414" y="1968" font-size="14" fill="#C8F03C" text-anchor="end">↗</text>
+
+<line x1="32" y1="1980" x2="418" y2="1980" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+<text x="32" y="1998" class="mono" font-size="10.5" letter-spacing="1.5" fill="rgba(245,242,235,0.45)">PORTFOLIO · VIMAL.FUN</text>
+<text x="414" y="1998" font-size="14" fill="#C8F03C" text-anchor="end">↗</text>
+
+<!-- Right panel -->
+<text x="480" y="1700" class="display" font-size="16" letter-spacing="3" fill="rgba(13,13,13,0.38)">DROP A LINE</text>
+<text x="480" y="1748" class="display" font-size="26" letter-spacing="0" fill="#0D0D0D">VIMAL@DCTRO.IN</text>
+
+<text x="480" y="1800" class="mono" font-size="8.5" letter-spacing="2" fill="rgba(13,13,13,0.38)">I'M INTERESTED IN</text>
+
+<rect x="480" y="1812" width="90" height="20" fill="none" stroke="rgba(13,13,13,0.12)" stroke-width="1"/>
+<text x="488" y="1826" class="mono" font-size="8" letter-spacing="0.5" fill="rgba(13,13,13,0.5)">FREELANCE .NET</text>
+
+<rect x="576" y="1812" width="86" height="20" fill="none" stroke="rgba(13,13,13,0.12)" stroke-width="1"/>
+<text x="584" y="1826" class="mono" font-size="8" letter-spacing="0.5" fill="rgba(13,13,13,0.5)">IOT CONSULTING</text>
+
+<rect x="480" y="1838" width="94" height="20" fill="none" stroke="rgba(13,13,13,0.12)" stroke-width="1"/>
+<text x="488" y="1852" class="mono" font-size="8" letter-spacing="0.5" fill="rgba(13,13,13,0.5)">ROBOTICS PROJECTS</text>
+
+<rect x="580" y="1838" width="84" height="20" fill="none" stroke="rgba(13,13,13,0.12)" stroke-width="1"/>
+<text x="588" y="1852" class="mono" font-size="8" letter-spacing="0.5" fill="rgba(13,13,13,0.5)">FINTECH SYSTEMS</text>
+
+<rect x="480" y="1864" width="82" height="20" fill="none" stroke="rgba(13,13,13,0.12)" stroke-width="1"/>
+<text x="488" y="1878" class="mono" font-size="8" letter-spacing="0.5" fill="rgba(13,13,13,0.5)">FULL-TIME ROLES</text>
+
+<rect x="568" y="1864" width="70" height="20" fill="none" stroke="rgba(13,13,13,0.12)" stroke-width="1"/>
+<text x="576" y="1878" class="mono" font-size="8" letter-spacing="0.5" fill="rgba(13,13,13,0.5)">OPEN SOURCE</text>
+
+<line x1="0" y1="1986" x2="900" y2="1986" stroke="#0D0D0D" stroke-width="1"/>
+</g>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<text x="32" y="2010" class="mono" font-size="9.5" letter-spacing="1.5" fill="rgba(13,13,13,0.35)">© 2026 VIMAL M · CHENNAI, INDIA</text>
+<text x="868" y="2010" class="mono" font-size="9.5" letter-spacing="1" fill="rgba(13,13,13,0.35)" text-anchor="end">VIMAL.FUN · GITHUB.COM/ITSVIMALM</text>
+
+<line x1="0" y1="2020" x2="900" y2="2020" stroke="rgba(13,13,13,0.1)" stroke-width="1"/>
+</svg>
