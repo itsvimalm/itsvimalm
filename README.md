@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=VIMAL&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=.NET%20Developer%20|%20ASP.NET%20Core%20|%20FinTech%20DEVELOPER&descAlignY=58&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=waving&height=250&section=header&text=VIMAL&fontSize=60&fontColor=111111&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20|%20.NET%20Core%20|%20FinTech%20Solutions&descAlignY=60&descSize=20&color=gradient&customColorList=2,22,24)
 <h1 align="center">
   Hi 👋, I'm <span style="color: #512BD4;">Vimal</span>
 </h1>
